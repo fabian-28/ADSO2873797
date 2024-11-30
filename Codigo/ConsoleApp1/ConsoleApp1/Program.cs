@@ -10,6 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int a;
+            Console.WriteLine("digite el numero a revisar");
+            a=int.Parse(Console.ReadLine());
+            if (a % 2 ==0)
+            {
+                Console.WriteLine("el numero es par");
+            }
+            else
+            {
+                Console.WriteLine("no es numero par");
+            }
         }
     }
 }
