@@ -11,6 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int a;
+            int b = 0;
+            while (b == 0)
+            {
             Console.WriteLine("digite el numero a revisar");
             a=int.Parse(Console.ReadLine());
             if (a % 2 ==0)
@@ -21,6 +24,8 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("no es numero par");
             }
+            }
+            Console.ReadKey();
         }
     }
 }
